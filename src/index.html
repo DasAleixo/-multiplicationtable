@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/query/query.css"> 
+    <link rel="stylesheet" href="style/style.css"/>
+    <script src="js/tabuada.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1 class="label">Tabuada</h1>
+            <form  class="form" id="form">
+                <div class="entrada">
+                    <div class="mb">
+                        <label for="numero">Tabuada do: </label>
+                        <input class="valor" type="number" id="numero" placeholder="1" required>
+                    </div>
+                    <div class="mb">
+                        <label for="Multiplicador">Multiplicar até: </label>
+                        <input class="valor" type="number" id="multiplicador" placeholder="1" required>
+                    </div>
+                </div>
+                <input type="submit" class="calcular" value="Calcular"></input>
+            </form>
+        </div>
+        <h2 class="title">Tabuada do número: <span class="n-title">X</span></h2>
+        <div class="container container-result" id="tabela">
+            <div class="text">
+                <p>Aguardando a entrada de um número</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
